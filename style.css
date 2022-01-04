@@ -1,0 +1,419 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+}
+.whole-container{
+    display: block;
+    width: 80%;
+    margin:0 auto;
+}
+.header img {
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 35px;
+}
+.contact{
+    float: right;
+    display: block;
+    text-align: right;
+}
+.contact span a{
+    text-decoration: none;
+    color: green;
+    font-weight: 600;
+font-size: 30px;
+}
+.contact p{
+    text-align: right;
+    padding-top: 10px;
+}
+.contact img{
+    padding-top: 15px;
+}
+.contact p a{
+    color: green;
+}
+.contact span .fa{
+    font-size: 28px;
+    color: green;
+}
+nav{
+    width: 100%;
+    background-color: rgb(19, 29, 117);
+    float: left;
+}
+nav ul {
+    display: inline-flex;
+}
+nav ul li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+nav ul li::after{
+    content: "";
+    border-right: 1px solid gray;
+    margin-left: 12px;
+}
+nav ul li a:hover{
+    background-color: transparent ;
+    text-decoration: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.banner{
+    background-image: url('bgimg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 100%;
+}
+.banner h1{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 35px;
+}
+.banner p{
+    padding-left: 15px;
+    padding-top: 70px;
+}
+.banner a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.blue-btn{
+    padding: 5px 50px;
+display: inline-block;
+border: 1px solid #1755eaeb;
+background-color: #1755eaeb;
+color: white;
+margin-left: 15px;
+cursor: pointer;
+position: relative;
+border-radius: 5px;
+}
+.banner a .fa{
+    padding-left: 30px;
+}
+.blue-btn:hover{
+    color: #1755eaeb;
+    background: transparent;
+    text-decoration: none;
+}
+.sub-heading{
+    float: right;
+width: 55%;
+text-align: center;
+padding: 15px 0px;
+}
+.sub-heading p{
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    background-image: linear-gradient(to right,rgba(0,0,1,0.4),rgba(0,0,1,0.4));
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     height: 50px;
+     color: white;
+     font-weight: 600;
+
+}
+.cta{
+    background: rgb(19, 29, 117);
+    display: block;
+width: 100%;
+float: left;
+padding-left: 35px;
+padding-top: 20px;
+position: relative;
+}
+.cta-text{
+    display: block;
+    width: 100%;
+    float: left;
+    padding-left: 0px !important;
+padding-right: 0px !important;
+}
+.cta-text span{
+    color: white;
+font-size: 19px;
+padding-left: 30px;
+line-height: 10px;
+}
+.cta-text h1{
+    color: #02ffe7;
+    font-size: 40px;
+   line-height: 30px;
+   font-weight: 700;
+   padding-bottom: 10px;
+}
+.cta-text p{
+    color: white;
+}
+.cta-link a{
+    color: #02ffe7;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.cta-link{
+    padding-bottom: 25px;
+}
+.form{
+    width: 100%;
+float: left;
+display: block;
+color: white;
+margin-left: -30px;
+}
+.form-1{
+    width: 100%;
+display: block;
+float: right;
+color: white;
+margin-left: 60px;
+}
+.submit-btn{
+    position: absolute;
+bottom: 58px;
+right: 6px;
+width: 43%;
+margin-right: 62px;
+}
+.hero-icon{
+    display: block;
+  float: left;
+  color: black;
+}
+.hero-icon-1{
+    display: block;
+    float: right;
+    color: black;
+}
+.hero-icon-1 a{
+    color: black;
+    text-decoration: none;
+}
+.hero-icon a{
+    color: black;
+    text-decoration: none;
+}
+.hero-heading{
+    display: block;
+    float: left;
+    margin-top: 3%;
+    margin-left: 20px;
+}
+.hero-heading h2{
+    color: rgb(19, 29, 117);
+    font-size: 28px;
+}
+.hero-heading h5{
+    font-size: 18px;
+font-weight: 600;
+padding: 15px 0px;
+}
+.container{
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.common-col{
+    text-align: center;
+}
+.common-col h1{
+    font-size: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(19, 29, 117);
+}
+.common-col p{
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.common-btn{
+    background-color: rgb(19, 29, 117);
+    padding: 10px 15px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid rgb(19, 29, 117);
+    cursor: pointer;
+}
+.common-btn:hover{
+    background-color: rgb(19, 29, 117);
+}
+.services{
+    padding-top: 10px;
+    float: left;
+    display: block;
+}
+.services h2{
+    color: rgb(19, 29, 117) ;
+    padding-bottom: 70px;
+}
+.service p{
+    font-weight: 500;
+}
+.services-health{
+    float: right;
+display: block;
+}
+.services-health h2{
+   color: rgb(19, 29, 117) ;
+   font-size: 1.5rem;
+   padding-bottom: 15px;
+}
+.services ul{
+    display: grid;
+grid-template-columns: 200px 200px auto;
+grid-template-rows: 24px;
+}
+.services ul li{
+    color: green;
+}
+footer{
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: rgb(10, 72, 168) ;
+}
+.location{
+    display: block;
+    float: left;
+    margin-top: 3%;
+    padding-right: 0px !important;
+}
+.location p{
+    color: white;
+}
+h4{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.treatment{
+    display: block;
+    float: left;
+    margin-top: 3%;
+}
+.treatment p{
+    color: aquamarine;
+}
+hr{
+    background-color: white;
+    color: white;
+}
+.resources{
+    display: block;
+    float: left;
+    margin-top: 3%;
+}
+.resources p{
+    color: white;
+}
+.booking{
+    display: block;
+    float: right;
+    margin-top: 3%;
+    padding-left: 0px !important;
+}
+.sub-btn{
+    padding: 10px 57px;
+    margin-top: 20px;
+}
+.location a{
+    text-decoration: none;
+    color: aquamarine;
+}
+input{
+    margin-bottom: 10px;
+}
+form{
+    color: white;
+}
+.copy{
+    float: left;
+width: 100%;
+display: block;
+background-color: midnightblue;
+color: white;
+padding: 15px 0px 5px 15px;
+}
+#accordian{
+    background: transparent;
+border: 1px solid gray;
+text-align: center;
+width: 100%;
+color: rgb(19, 29, 117) ;
+font-size: 20px;
+font-weight: 600;
+}
+#accordian1{
+    background: transparent;
+border: 1px solid gray;
+text-align: left;
+padding: 10px 30px;
+width: 100%;
+color: rgb(19, 29, 117) ;
+font-size: 20px;
+font-weight: 600;
+}
+#accordian2{
+    background: transparent;
+border: 1px solid gray;
+text-align: left;
+padding: 10px 30px;
+width: 100%;
+color: rgb(19, 29, 117) ;
+font-size: 20px;
+font-weight: 600;
+}
+#accordian3{
+    background: transparent;
+border: 1px solid gray;
+text-align: left;
+padding: 10px 30px;
+width: 100%;
+color: rgb(19, 29, 117) ;
+font-size: 20px;
+font-weight: 600;
+}
+#accordian4{
+    background: transparent;
+border: 1px solid gray;
+text-align: left;
+padding: 10px 30px;
+width: 100%;
+color: rgb(19, 29, 117) ;
+font-size: 20px;
+font-weight: 600;
+}
+#accordian5{
+    background: transparent;
+border: 1px solid gray;
+text-align: left;
+padding: 10px 30px;
+width: 100%;
+color: rgb(19, 29, 117) ;
+font-size: 20px;
+font-weight: 600;
+}
+#accordian6{
+    background: transparent;
+border: 1px solid gray;
+text-align: left;
+padding: 10px 30px;
+width: 100%;
+color: rgb(19, 29, 117) ;
+font-size: 20px;
+font-weight: 600;
+}
